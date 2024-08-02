@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- İlan Başlığı -->
+        <EditText
+            android:id="@+id/car_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="İlan Başlığı"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/result_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Car Image" />
+
+        <EditText
+            android:id="@+id/car_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marka"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_paket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paket"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yıl"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahmini Motor Gücü"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_cc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tahmini Motor Hacmi"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fiyat"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/car_owner_details"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Araç Detayları ve İletişim Bilgileri"
+            android:textSize="18sp"
+            android:background="@drawable/edittext_border"
+            android:padding="8dp"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLines="10"
+            android:minLines="5"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/go"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

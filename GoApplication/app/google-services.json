@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "627043530894",
+    "firebase_url": "https://goapp-ce84d-default-rtdb.firebaseio.com",
+    "project_id": "goapp-ce84d",
+    "storage_bucket": "goapp-ce84d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627043530894:android:518429e6f5fd7f2c6631df",
+        "android_client_info": {
+          "package_name": "com.example.goapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVtfKgt4nzQ7vk4eBKEZWofqInG3VMxQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
